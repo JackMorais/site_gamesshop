@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+   
+    
+}
+.container h1{
+    font-family: 'Bungee', sans-serif;
+
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #182C61;
+    color: #ecf0f1;
+    padding: 25px 2px 25px 2px;
+}
+header{
+    width: auto;
+    background-color: #182C61;
+}
+footer{
+    width: auto;
+    background-color: #182C61;
+    color: #ecf0f1;
+
+}
+.rodape p{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    
+}
+section .container{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    padding: 25px 0 10px 0;
+}
+.container img{
+    padding-right: 15px;
+}
+div .sub{
+    padding-left: 10px;
+}
+.sub h2{
+    padding: 10px 0 10px 0;
+    font-family: 'Bungee', sans-serif;
+    color: #182C61;
+
+}
+p{
+    padding: 10px 0 5px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    text-align: justify;
+
+}
+
+.contact h2 {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0 5px 0;
+    font-family: 'Bungee', sans-serif;
+    color: #182C61;
+
+}
+div .article{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+
+}
+div .logo{
+    display: inline;
+    flex-direction: row;
+}
+.logo img{
+    padding: 5px 7px 0 0 ;
+    height: 30px;
+    object-fit:fill;
+}
+.article h3{
+    font-family: 'Bungee', sans-serif;
+    color: #182C61;
+    margin-bottom: 20px;
+
+}
+nav{
+    font-size: 18px;
+
+}
+nav a{
+    font-family: 'Bungee', sans-serif;
+    padding-left: 25px;
+    text-decoration: none;
+    color: #ecf0f1;
+}
+
+#text, #email, #tel{
+    width: 320px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+    
+}
+form input{
+    margin-bottom: 8px;
+}
+form textarea{
+    width: 320px;
+    height: 170px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    resize: none;
+}
+form button{
+    width: 320px;
+    height: 40px;
+    background-color:#182C61;
+    color: #ecf0f1;
+    font-family: 'Bungee', sans-serif;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(0, 132, 255);
+}
+.rodape p{
+    padding-left: 0;
+}
+input:focus, textarea:focus{
+    outline-color: #182C61;
+}
